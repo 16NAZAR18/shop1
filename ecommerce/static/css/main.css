@@ -111,5 +111,34 @@ p.quantity{
 	border-radius: 7px;
 	border: #2bff00;
 	background-color: #2bff00;
+	transition:.2s;
 }
 
+.btn-warning:hover{
+	color: rgb(255, 255, 255);
+	background-color: #343a40;
+}
+
+.btn_payment{
+  	background-color: #2bff00; /* Green */
+ 	border: none;
+  	color: rgb(255, 255, 255);
+  	padding: 7px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	border-radius: 7px;
+  	font-size: 15px;
+  	font-weight: bold;
+ 	transition:.2s;
+}
+
+.btn_payment:hover{
+	background-color: #343a40;
+}
+
+.text_paypal{
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+  	font-weight: normal;
+}
